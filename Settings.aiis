@@ -181,7 +181,7 @@
     "IsElementImageCapturingEnabled": true,
     "UseScreenshotCache": true,
     "EnableImageSearch": true,
-    "UseBrowserExtension": false,
+    "UseBrowserExtension": true,
     "TelerikComponentsVersion": 0,
     "ScrollOnImageSearch": true,
     "DisplayElementImagePreview": true,
@@ -217,8 +217,20 @@
     "DefaultDesktopApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "5fe7d997-7d62-435d-ae89-7a5622d92cda",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/svenzengaffi/44HotmapsTests.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/svenzengaffi/44HotmapsTests.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
